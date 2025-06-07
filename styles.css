@@ -1,0 +1,30 @@
+* {
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{  
+    max-width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about_me{
+    display: inline;
+}
+#rk_pic{
+    max-width: 30%;
+}
+
+
+#project_images {
+    display: inline;
+}
+
+#intro_ECG{
+    max-width: 40%;
+}
+
+#detail_ECG{
+    max-width: 40%;
+}
+

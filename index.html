@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- my portfolio page using a basic VS code template 
+ that I modified to include the semantic elements -->
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>RK Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Richard Kasparian Porfolio
+        </h1>
+        <nav>
+            <a href="#about_me">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+    <h2>About Me</h2>  
+    <section id="about_me">
+        <img id="rk_pic" src="portfolio_pic.jpg">
+        <p>
+            Hard working family man with plenty of life experience... gets it wrong occasionally!
+        </p>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="project_images">
+            <img id="intro_ECG" src= "Screenshot 2025-06-07 070247.png">
+            <img id="detail_ECG" src="Screenshot 2025-06-07 070326.png">
+        </div>
+        <p>My aim is to develop interactive educational material to help medical staff interpret and analyse the electrocardiogram - ECG</p>  
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input id="name">
+            <label for="email">email</label>
+            <input id="email">
+            <label for="under18">Under 18</label>
+            <input type="radio" id="under18" name="age_group">
+            <label for="adult">Adult</label>
+            <input type="radio" id="adult" name="age_group">
+            <input type="textarea">
+            <button type="submit">Send</button>
+            <p>stay in touch: <a href="mailto: rickasparian@gmail.com">send email</a></p>
+            <p>My personal telephone number: <a href="tel:+447722631313">UK: 07722631313</a></p>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <h3>copyright RK Cardiac </h3>
+    </footer>
+    
+</body>
+</html>
