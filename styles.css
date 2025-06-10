@@ -17,6 +17,10 @@ p{
 }
 #rk_pic{
     max-width: 30%;
+    display: inline;
+}
+# rk_bio{
+    display: inline;
 }
 
 
