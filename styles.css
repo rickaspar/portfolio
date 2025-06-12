@@ -1,15 +1,16 @@
 * {
-    background-color: azure;
+    background-color: #FFEDD5;
     font-family: 'Courier New', Courier, monospace;
 }
 h1 {        
-    background-color: #f08080;       
+    background-color: #D97706;       
 }
 
 p{  
     max-width: 30%;
     font-size: 20px;
     font-weight: bold;
+    display: inline;
 }
 
 #about_me{
